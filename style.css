@@ -1,0 +1,97 @@
+/* Write some CSS below */
+
+body{
+	background-color: #ffe3ed;
+	color: #162447;
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+	text-align: center;
+}
+
+a{
+	color: #e43f5a;
+	text-decoration: none;
+	background-color: #162447;
+	padding: 15px;
+	border-radius: 6px;
+	color: #F6BED6;
+	font-size: 18px;
+}
+
+a:hover{
+	color: #d8345f;
+}
+
+h2{
+	font-size: 38px;
+}
+
+/*div{
+	border: 1px solid black;
+}
+*/
+
+.banner{
+	background-image: url('images/background.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	padding: 100px;
+	color: #ffe3ed;
+	padding-top: 10px;
+}
+
+.banner h1{
+	font-size: 54px;
+}
+
+.banner h2{
+	font-size: 38px;
+}
+
+.banner p{
+	font-size: 26px;
+}
+
+.card-white{
+	background-color: white;
+	width: 400px;
+}
+
+img{
+	width: 400px;
+}
+
+#footer{
+	color: #F6BED6;
+	background-color: #162447;
+	padding: 20px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
